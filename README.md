@@ -5,3 +5,4 @@ leggi il README per le ultime info
 -formattazione
 -nomi variabili
 -masto 
+mastrobandito
