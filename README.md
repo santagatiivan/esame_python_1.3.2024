@@ -17,7 +17,7 @@ leggi il README per le ultime info
 
 **-Esecuzione e gestione delle eccezioni**: Il blocco principale esegue le funzioni sopra definite, gestendo eventuali errori e stampando i risultati.
 
-#### testo
+### testo
 La classe *ExamException* estende *Exception*, fornendo una gestione specifica degli errori che possono emergere durante l'apertura del file o l'elaborazione dei dati. Questo meccanismo di eccezioni personalizzate facilita l'identificazione e la gestione di errori specifici, migliorando la resilienza e la manutenibilità del codice.
 
 *CSVTimeSeriesFile* è una classe progettata per caricare e leggere i dati da file CSV, con un costruttore che accetta come argomento il nome del file. Il metodo *get_data()* apre il file in modalità lettura, gestendo eccezioni quali *FileNotFoundError* per file inesistenti e errori generici nell'apertura, attraverso il rilancio di *ExamException* con messaggi di errore specifici.
