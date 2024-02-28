@@ -1,4 +1,5 @@
 # esame-python
+
 leggi il README per le ultime info
 
 ## DA RIVEDERE!
@@ -6,7 +7,7 @@ leggi il README per le ultime info
 
 -nomi variabili
 
-### breve recap
+### breve recap del codice
 **-Definizione di una classe di eccezione**: Per gestire errori specifici al contesto.
 
 **-Classe CSVTimeSeriesFile**: Gestisce l'apertura e la lettura di un file CSV, verificando la correttezza e l'ordine dei dati.
